@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import '../assets/css/signUp.css'
 
 function SignUp() {
 
@@ -33,7 +33,7 @@ function SignUp() {
         <div>
             <div className="singUpPage" >
                 <h1 className='font-extrabold text-4xl text-fuchsia-600' style={{textAlign:"center" , margin:"20px"}}>SingUP Page For E-Book</h1>
-                <form action="" className='text-cyan-400' autoComplete='off' onSubmit={showFormData} >
+                <form action=""  autoComplete='off' onSubmit={showFormData} >
                     <label htmlFor="userName" >UserName</label>
                     <input type="text"
                         name='userName'
@@ -81,7 +81,7 @@ function SignUp() {
                     required
                     />
 
-                    <button type='submit'>Submit</button>
+                    <button type='submit' style={{backgroundColor:'yellow' ,padding:"10px", fontSize:"20px",margin:"10px 0" ,color:"black" ,borderRadius:"10px"}}>Submit</button>
                     {/* <h3><Link to={"signIn"}>Already Have Account</Link></h3> */}
                 </form>
             </div>

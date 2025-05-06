@@ -1,0 +1,15 @@
+.singUpPage{
+  background-color: rgb(11, 77, 77);
+  background-image: linear-gradient(to right,rgb(3, 59, 59),black,rgb(62, 3, 62));
+  margin: auto;
+  width: 45%;
+  border-radius: 10px;
+  padding:0 0 20px;
+}
+.singUpPage form{
+    background-color: rgb(4, 61, 77);
+    width: inherit+100px;
+}
+label , input{
+    margin: 1px 0;
+}
