@@ -7,9 +7,23 @@
   padding:0 0 20px;
 }
 .singUpPage form{
-    background-color: rgb(4, 61, 77);
-    width: inherit+100px;
+  background-color: rgb(4, 58, 67);
+  margin: auto;
+  width: 500px;
+  border-radius: 10px;
+ 
+ 
 }
-label , input{
-    margin: 1px 0;
+.singUpPage form ,label,input{
+  display: grid;
+  text-align: left;
+  padding: 5px;
+}
+.singUpPage label{
+  text-transform: uppercase;
+
+}
+.singUpPage input{
+  border: 1px solid black ;
+  border-radius: 5px;
 }

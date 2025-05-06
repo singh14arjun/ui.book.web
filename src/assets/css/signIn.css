@@ -9,14 +9,14 @@
     padding: 20px;
     align-content: center;
 }
-h1{
+.signInForm h1{
     text-align: center;
     font-size: 30px;
     color: magenta;
     margin: 10px;
     padding: 10px;
 }
-form{
+.signInForm form{
     background-color: rgb(52, 55, 58);
     margin: auto;
     width: 300px;
@@ -25,16 +25,16 @@ form{
    
    
 }
-form ,label,input{
+.signInForm form ,label,input{
     display: grid;
     text-align: left;
     padding: 5px;
 }
-label{
+.signInForm label{
     text-transform: uppercase;
 
 }
-input{
+.signInForm input{
     border: 1px solid black ;
     border-radius: 5px;
 }
