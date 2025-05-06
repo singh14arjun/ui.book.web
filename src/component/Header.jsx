@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <>
-      <header className="bg-gray-900 shadow-md p-4">
+      <header className=" shadow-md p-4" style={{backgroundColor:""}}>
         <div className="container mx-auto flex items-center justify-between">
 
           <div className="text-2xl font-bold text-blue-900 cursor-pointer">
